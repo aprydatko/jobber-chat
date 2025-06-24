@@ -7,7 +7,7 @@ import { chatMockRequest, chatMockResponse, authUserPayload, messageDocument } f
 import { message } from '@chat/controllers/create';
 
 jest.mock('@chat/services/message.service');
-jest.mock('@uzochukwueddie/jobber-shared');
+jest.mock('@aprydatko/jobber-shared');
 jest.mock('@chat/schemes/message');
 jest.mock('@elastic/elasticsearch');
 
